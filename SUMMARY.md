@@ -20,6 +20,7 @@
   * [Twitter stream to Kafka](modules/twitter-stream-to-kafka.md)
   * [Twitter timelines to Kafka](modules/twitter-timelines-to-kafka.md)
   * [Classify Users](modules/classify-users.md)
+  * [Classify Tweets](modules/classify-tweets.md)
   * [Count Hashtags](modules/count-hashtags.md)
 * [Changelog](changelog.md)
 * [TODO](todo.md)

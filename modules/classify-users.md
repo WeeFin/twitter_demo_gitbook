@@ -27,7 +27,6 @@ description: >-
 * `queryCount`: The maximum number of requests for each user \(a maximum of 200 Tweets can be served for a single request\)
   * _Default_: None \(query while `tweetCount` has not been reached\)
 
-
 ## Usage
 
 ```bash

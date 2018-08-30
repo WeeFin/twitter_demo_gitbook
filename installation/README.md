@@ -6,7 +6,7 @@ description: >-
 
 # Installation
 
-Before going any further, make sure that Java 8 is installed on your computer.
+Before going any further, make sure you have: `Java 8` and `git` installed on your computer.
 
 Then, clone the project and create a directory that will contain all your "infrastructure" executables
 

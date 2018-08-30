@@ -4,6 +4,12 @@ description: >-
   occurrences in a given time-window
 ---
 
+{% hint style="warning" %}
+This is a legacy module and could (should) be rewritten and simplified a lot.
+What this module does is doable directly in Elasticsearch/Kibana, but would be less efficient as input grow.
+{% endhint %}
+
+
 # Count Hashtags
 
 ## Options

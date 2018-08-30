@@ -9,7 +9,7 @@ description: Apache Flink is a stream processing framework
 In your `platform` directory, run:
 
 ```bash
-wget http://apache.mediamirrors.org/flink/flink-1.5.2/flink-1.5.2-bin-scala_2.11.tgz
+wget https://archive.apache.org/dist/flink/flink-1.5.3/flink-1.5.3-bin-scala_2.11.tgz
 tar -xzf flink-1.5.2-bin-scala_2.11.tgz
 ```
 
@@ -84,4 +84,3 @@ wget http://central.maven.org/maven2/org/apache/kafka/kafka-log4j-appender/1.1.0
 wget http://central.maven.org/maven2/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar
 cd ../..
 ```
-

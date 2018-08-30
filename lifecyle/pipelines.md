@@ -27,7 +27,7 @@ All fields in `config/pipeline1.cfg` must be set:
 Simply run the following command in a terminal to create the index.
 
 ```bash
-curl -XPUT 'http://localhost:9200/pipeline1_rich_tweets' -d '{
+curl -XPUT 'http://localhost:9200/pipeline1_rich_tweets' -H'Content-Type: application/json' -d '{
  "mappings": {
   "doc": {
    "properties": {
@@ -282,7 +282,7 @@ All fields in `config/pipeline2.cfg` must be set:
 Simply run the following command in a terminal to create the index.
 
 ```bash
-curl -XPUT 'http://localhost:9200/pipeline2_rich_tweets' -d '{
+curl -XPUT 'http://localhost:9200/pipeline2_rich_tweets' -H'Content-Type: application/json' -d '{
  "mappings": {
   "doc": {
    "properties": {

@@ -32,13 +32,15 @@ description: >-
 * `min-occurrences` The number of occurrence\(s\) needed in the current time-window for a hashtag to be part of the output
   * _Default:_ `1`
 
-{% hint style="warning" %}
+{% hint style="info" %}
 
 * All outputs are lowercase. As Hashtags are case-insensitive, original case cannot be preserved when grouping them together
 * In case of equal Hashtags count, the order is undefined as well which ones are retained when `display-only` value is reached
 * When the window is empty, no output is generated
 * Windows consider processing time when grouping Hashtags together
 * The output is not timestamped
+
+{% endhint %}
 
 ## Usage
 
@@ -83,4 +85,3 @@ The output is in the form of a JSON array containing one object per counted Hash
 ```javascript
 [{"text":"the","count":12},{"text":"quick","count":4},{"text":"brown","count":3},{"text":"fox","count":2},{"text":"jumps","count":2}]
 ```
-

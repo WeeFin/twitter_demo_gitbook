@@ -15,7 +15,7 @@ tar -xzf flink-1.5.3-bin-scala_2.11.tgz
 
 ## Setup
 
-To be able to run multiple jobs on a local \(one taskmanager\) cluster, set `taskmanager.numberOfTaskSlots: 10` in `flink-1.5.3/conf/fliink-conf.yaml`.
+To be able to run multiple jobs on a local \(one taskmanager\) cluster, set `taskmanager.numberOfTaskSlots: 10` in `flink-1.5.3/conf/flink-conf.yaml`.
 
 ## Log in Kafka
 
